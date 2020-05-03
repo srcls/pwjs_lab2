@@ -1,5 +1,3 @@
-use Time::Local;
-
 if(!defined $ARGV[0]){
     print "Usage: perl lab2.pl file_directory";
     exit;
@@ -23,9 +21,9 @@ while (my $line = <$fh>){
     
 }
 
-print "$fullTimeMin full minutes \n";
+#print "$fullTimeMin full minutes \n";
 
-print $fullTimeMin/60, " all hours \n";
+#print $fullTimeMin/60, " all hours \n";
 
 print $fullTimeMin/45, " all lesson hours \n";
 
